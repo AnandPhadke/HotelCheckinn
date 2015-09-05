@@ -130,7 +130,7 @@ public class LoginActivity extends Activity implements OnClickListener {
 					public void done(ParseUser user, ParseException e) {
 						progressDialog.dismiss();
 						if (user != null) {
-							Log.v(getClass().getName(),user.get("employee_name").toString());
+							//Log.v(getClass().getName(),user.get("employee_name").toString());
 							// If user exist and authenticated, send user to Welcome.class
 //							Intent intent = new Intent(
 //									LoginSignupActivity.this,

@@ -7,7 +7,7 @@ import com.parse.Parse;
 import com.parse.ParseACL;
 import com.parse.ParseUser;
 import com.parse.PushService;
-
+//changes made
 public class CheckInnApplication extends Application {
 	 private static final String YOUR_APPLICATION_ID = "nxJK2NwJrFkEO3P2DhQlDIk2xYPdirqlID3vAQ8r";
 		private static final String YOUR_CLIENT_KEY = "eNY8BFSkXDSn9RPysalil3sQRa529ws1FsPqUmuc";
