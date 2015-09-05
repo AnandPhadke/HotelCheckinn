@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CheckInn</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="drawer_close"></string>
+    <string name="drawer_open"></string>
+    <string name="str_change_password"><u>Change password</u></string>
+    
+    
+    
+ <string-array name="side_menu">
+        <item>Cafe</item>
+        <item>Cafe operating hours</item>
+        <item>Asign Shift</item>
+        <item>Performance Rating</item>
+        <item>Pending swap report</item>
+    </string-array>
+    
+ <string-array name="side_menu_user">
+        <item>Schedule</item>
+        <item>Enter Availibility</item>
+        <item>Cancel shift</item>
+    </string-array>
+    
+ <string-array name="side_menu_admin">
+        <item>Schedule</item>
+        <item>Enter Availibility</item>
+        <item>Cancel shift</item>
+    </string-array>
+   
+
+</resources>

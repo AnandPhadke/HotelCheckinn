@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/llETContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivLogo"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_edit_text_bg"
+            android:ems="10"
+            android:hint="username"
+            android:padding="10dp"
+            android:textColor="@color/color_button_text" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_edit_text_bg"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textWebPassword"
+            android:padding="10dp"
+            android:textColor="@color/color_button_text" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_edit_text_bg"
+            android:ems="10"
+            android:hint="confirm password"
+            android:inputType="textWebPassword"
+            android:padding="10dp"
+            android:textColor="@color/color_button_text" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etEmployeeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_edit_text_bg"
+            android:ems="10"
+            android:hint="employee name"
+            android:padding="10dp"
+            android:textColor="@color/color_button_text" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_edit_text_bg"
+            android:ems="10"
+            android:hint="user id"
+            android:padding="10dp"
+            android:textColor="@color/color_button_text" >
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/cbAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:text="Admin" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llETContainer"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/drawable_button_bg"
+        android:padding="5dp"
+        android:text="Signup"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
